@@ -3,7 +3,7 @@ version: "3.6"
 services:
   web:
     image: php:8.0-apache
-    working_dir: /var/www/html
+    working_dir: /var/www/html  #aquí va nuestro código para mostrarse
     volumes:
       - ./:/var/www/html
     ports:
